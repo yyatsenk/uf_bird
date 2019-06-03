@@ -1,0 +1,28 @@
+package com.bird.model;
+
+import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+
+public class ContentGetter {
+
+    private Texture bird;
+    private Texture tube_top;
+    private Texture tube_btm;
+
+    ContentGetter()
+    {
+        bird = new Texture("path/to/");
+        tube_top = new Texture("path/to/");
+        tube_btm = new Texture("path/to/");
+        //music should be added
+    }
+    private void dispose()
+    {
+        bird.dispose();
+        tube_top.dispose();
+        tube_btm.dispose();
+    }
+}
