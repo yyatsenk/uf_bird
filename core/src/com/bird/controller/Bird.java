@@ -1,4 +1,4 @@
-package com.bird;
+package com.bird.controller;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;

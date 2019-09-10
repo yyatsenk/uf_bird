@@ -2,7 +2,7 @@ package com.bird.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.bird.Bird;
+import com.bird.controller.Bird;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {

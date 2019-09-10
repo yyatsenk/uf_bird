@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.bird.Bird;
+import com.bird.controller.Bird;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
